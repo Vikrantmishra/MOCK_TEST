@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import random
 from collections import Counter
 from functools import lru_cache
@@ -15,7 +16,21 @@ from .models import (
     SourceCatalogEntry,
 )
 
-DATA_PATH = Path(__file__).resolve().parent / "data" / "current_affairs_2026_04_23.json"
+DATA_DIR = Path(__file__).resolve().parent / "data"
+DEFAULT_DATA_PATH = DATA_DIR / "current_affairs_latest.json"
+LEGACY_DATA_PATH = DATA_DIR / "current_affairs_2026_04_23.json"
+
+
+def resolve_data_path() -> Path:
+    configured = os.getenv("SSC_CURRENT_AFFAIRS_DATA_PATH")
+    if configured:
+        return Path(configured).expanduser().resolve()
+    if DEFAULT_DATA_PATH.exists():
+        return DEFAULT_DATA_PATH
+    return LEGACY_DATA_PATH
+
+
+DATA_PATH = resolve_data_path()
 
 
 def _normalize(value: str) -> str:

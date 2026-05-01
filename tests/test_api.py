@@ -26,6 +26,7 @@ def test_dataset() -> None:
     payload = response.json()
     assert payload["dataset_name"] == "SSC Current Affairs MCQs"
     assert payload["total_questions"] >= 20
+    assert payload["as_of_date"]
 
 
 def test_generate_questions() -> None:
@@ -33,7 +34,7 @@ def test_generate_questions() -> None:
         "/api/v1/questions/generate",
         json={
             "count": 3,
-            "categories": ["space", "digital-governance"],
+            "categories": ["governance", "digital-governance", "health", "international-relations"],
             "shuffle_questions": True,
             "shuffle_options": True,
             "seed": 11,
@@ -46,7 +47,11 @@ def test_generate_questions() -> None:
 
 
 def test_question_lookup() -> None:
-    response = client.get("/api/v1/questions/q001-poshan-mission")
+    questions_response = client.get("/api/v1/questions?limit=1&randomize=false&shuffle_options=false")
+    assert questions_response.status_code == 200
+    question_id = questions_response.json()["questions"][0]["id"]
+
+    response = client.get(f"/api/v1/questions/{question_id}")
     assert response.status_code == 200
     payload = response.json()
-    assert payload["id"] == "q001-poshan-mission"
+    assert payload["id"] == question_id

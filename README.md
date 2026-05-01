@@ -1,8 +1,8 @@
 # SSC Current Affairs MCQ API
 
-This is a small FastAPI service for serving SSC-style current affairs MCQs with a seed bank updated as of `2026-04-23`.
+This is a small FastAPI service for serving SSC-style current affairs MCQs.
 
-The initial dataset focuses on recent official releases from sources such as PIB, IMD, ISRO, UIDAI and RBI, so you can call the API directly from your app to fetch or generate question sets.
+The API now reads from a stable `app/data/current_affairs_latest.json` file so it can be refreshed automatically without changing the API code path.
 
 ## Features
 
@@ -12,6 +12,7 @@ The initial dataset focuses on recent official releases from sources such as PIB
 - Random question generation
 - Optional option shuffling
 - Source links and explanations included in every MCQ
+- Scheduled GitHub Actions refresh pipeline for new question sets
 
 ## Run locally
 
@@ -60,6 +61,13 @@ curl -X POST "http://127.0.0.1:8000/api/v1/questions/generate" ^
 
 ## Notes
 
-- The current seed data is verified against recent official releases available up to `2026-04-23`.
-- You can expand the bank by appending more entries to [current_affairs_2026_04_23.json](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\app\data\current_affairs_2026_04_23.json).
+- The live API reads [current_affairs_latest.json](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\app\data\current_affairs_latest.json).
+- Fresh question banks can be generated locally with:
+
+```bash
+python scripts/update_current_affairs.py
+```
+
+- The scheduled workflow lives at [update_current_affairs.yml](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\.github\workflows\update_current_affairs.yml) and runs daily. It only commits a new dataset when the current one is at least 3 days old or has reached the 5-day force-refresh window.
+- Archived snapshots are written to [app/data/archive](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\app\data\archive).
 - Every question stores source metadata so you can trace the fact used to build it.

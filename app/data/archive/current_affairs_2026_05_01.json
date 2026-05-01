@@ -1,0 +1,689 @@
+{
+  "dataset_name": "SSC Current Affairs MCQs",
+  "as_of_date": "2026-05-01",
+  "coverage_start": "2026-05-01",
+  "coverage_end": "2026-05-01",
+  "questions": [
+    {
+      "id": "auto-20260501-001-women-powering-india-s-changing-workforce",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "social-welfare",
+      "difficulty": "easy",
+      "fact": "Women Powering India’s Changing Workforce",
+      "question": "Which organisation or authority is most directly associated with this update: 'Women Powering India’s Changing Workforce'?",
+      "options": [
+        "PIB Headquarters",
+        "Odisha Gets a New Development Push as Double Engine Government",
+        "RBI",
+        "ISRO"
+      ],
+      "correct_answer": "PIB Headquarters",
+      "explanation": "PIB Headquarters reported 'Women Powering India’s Changing Workforce' on 2026-05-01.",
+      "tags": [
+        "pib headquarters",
+        "social-welfare"
+      ],
+      "source": {
+        "title": "Women Powering India’s Changing Workforce",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257197",
+        "publisher": "PIB Headquarters",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-002-updates-on-key-sectors-in-view-of-developments-in-west-asia",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Updates on Key Sectors in View of Developments in West Asia",
+      "question": "Which organisation or authority is most directly associated with this update: 'Updates on Key Sectors in View of Developments in West Asia'?",
+      "options": [
+        "Ministry of Petroleum & Natural Gas",
+        "Odisha Gets a New Development Push as Double Engine Government",
+        "Ministry of Labour and Employment",
+        "Ministry of Women and Child Development"
+      ],
+      "correct_answer": "Ministry of Petroleum & Natural Gas",
+      "explanation": "Ministry of Petroleum & Natural Gas reported 'Updates on Key Sectors in View of Developments in West Asia' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of petroleum & natural gas"
+      ],
+      "source": {
+        "title": "Updates on Key Sectors in View of Developments in West Asia",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257341",
+        "publisher": "Ministry of Petroleum & Natural Gas",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-003-union-minister-shri-j-p-nadda-visits-niper-mohali-reviews-bi",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "health",
+      "difficulty": "easy",
+      "fact": "Union Minister Shri J. P. Nadda Visits NIPER Mohali, Reviews Biopharma Research and Innovation",
+      "question": "Which organisation or authority is most directly associated with this update: 'Union Minister Shri J. P. Nadda Visits NIPER Mohali, Reviews Biopharma Research and Innovation'?",
+      "options": [
+        "Union Minister Shri J. P. Nadda",
+        "Reserve Bank of India",
+        "Ministry of Panchayati Raj",
+        "RBI Governor"
+      ],
+      "correct_answer": "Union Minister Shri J. P. Nadda",
+      "explanation": "Ministry of Chemicals and Fertilizers - Department of Pharmaceuticals reported 'Union Minister Shri J. P. Nadda Visits NIPER Mohali, Reviews Biopharma Research and Innovation' on 2026-05-01.",
+      "tags": [
+        "health",
+        "ministry of chemicals and fertilizers - department of pharmaceuticals"
+      ],
+      "source": {
+        "title": "Union Minister Shri J. P. Nadda Visits NIPER Mohali, Reviews Biopharma Research and Innovation",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257336",
+        "publisher": "Ministry of Chemicals and Fertilizers - Department of Pharmaceuticals",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-004-union-minister-nitin-gadkari-launches-india-s-first-multi-la",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Union Minister Nitin Gadkari Launches India’s First Multi-Lane Free Flow (MLFF) Barrier-less Tolling System in Gujarat",
+      "question": "Which organisation or authority is most directly associated with this update: 'Union Minister Nitin Gadkari Launches India’s First Multi-Lane Free Flow (MLFF) Barrier-less Tolling System in Gujarat'?",
+      "options": [
+        "Union Minister Nitin Gadkari",
+        "5th India–Tanzania Joint Trade Committee Meeting",
+        "Prime Minister",
+        "Ministry of Cooperation"
+      ],
+      "correct_answer": "Union Minister Nitin Gadkari",
+      "explanation": "Ministry of Road Transport & Highways reported 'Union Minister Nitin Gadkari Launches India’s First Multi-Lane Free Flow (MLFF) Barrier-less Tolling System in Gujarat' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of road transport & highways"
+      ],
+      "source": {
+        "title": "Union Minister Nitin Gadkari Launches India’s First Multi-Lane Free Flow (MLFF) Barrier-less Tolling System in Gujarat",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257226",
+        "publisher": "Ministry of Road Transport & Highways",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-005-union-minister-jual-oram-calls-for-stronger-last-mile-delive",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Union Minister Jual Oram Calls for Stronger Last-Mile Delivery; Baba Ramdev Highlights Resilience at MoTA Chintan Shivir 2026",
+      "question": "Which organisation or authority is most directly associated with this update: 'Union Minister Jual Oram Calls for Stronger Last-Mile Delivery; Baba Ramdev Highlights Resilience at MoTA Chintan Shivir 2026'?",
+      "options": [
+        "Union Minister Jual Oram",
+        "Ministry of Panchayati Raj",
+        "Prime Minister Narendra Modi",
+        "Ministry of Labour & Employment"
+      ],
+      "correct_answer": "Union Minister Jual Oram",
+      "explanation": "Ministry of Tribal Affairs reported 'Union Minister Jual Oram Calls for Stronger Last-Mile Delivery; Baba Ramdev Highlights Resilience at MoTA Chintan Shivir 2026' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of tribal affairs"
+      ],
+      "source": {
+        "title": "Union Minister Jual Oram Calls for Stronger Last-Mile Delivery; Baba Ramdev Highlights Resilience at MoTA Chintan Shivir 2026",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257402",
+        "publisher": "Ministry of Tribal Affairs",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-006-union-home-and-cooperation-minister-shri-amit-shah-laid-the-",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "international-relations",
+      "difficulty": "easy",
+      "fact": "Union Home and Cooperation Minister Shri Amit Shah laid the foundation stone and inaugurated various dairy infrastructure and cooperative initiatives in Ladakh",
+      "question": "Which organisation or authority is most directly associated with this update: 'Union Home and Cooperation Minister Shri Amit Shah laid the foundation stone and inaugurated various dairy infrastructure and cooperative initiatives in Ladakh'?",
+      "options": [
+        "Ministry of Cooperation",
+        "Ministry of Home Affairs",
+        "Ministry of Commerce and Industry",
+        "ISRO"
+      ],
+      "correct_answer": "Ministry of Cooperation",
+      "explanation": "Ministry of Cooperation reported 'Union Home and Cooperation Minister Shri Amit Shah laid the foundation stone and inaugurated various dairy infrastructure and cooperative initiatives in Ladakh' on 2026-05-01.",
+      "tags": [
+        "ai",
+        "international-relations",
+        "ministry of cooperation"
+      ],
+      "source": {
+        "title": "Union Home and Cooperation Minister Shri Amit Shah laid the foundation stone and inaugurated various dairy infrastructure and cooperative initiatives in Ladakh",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257372",
+        "publisher": "Ministry of Cooperation",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-007-union-home-minister-and-minister-of-cooperation-shri-amit-sh",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "international-relations",
+      "difficulty": "easy",
+      "fact": "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the exposition of the sacred relics of Lord Buddha in Leh",
+      "question": "According to the official update 'Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the exposition of the sacred relics of Lord Buddha in Leh', where did this event take place?",
+      "options": [
+        "Leh",
+        "Kolkata",
+        "Raipur, Chhattisgarh",
+        "Hyderabad"
+      ],
+      "correct_answer": "Leh",
+      "explanation": "Ministry of Home Affairs reported 'Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the exposition of the sacred relics of Lord Buddha in Leh' on 2026-05-01.",
+      "tags": [
+        "international-relations",
+        "ministry of home affairs"
+      ],
+      "source": {
+        "title": "Union Home Minister and Minister of Cooperation Shri Amit Shah inaugurates the exposition of the sacred relics of Lord Buddha in Leh",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257370",
+        "publisher": "Ministry of Home Affairs",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-008-strengthening-accessibility-bis-publishes-six-new-standards-",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Strengthening Accessibility: BIS publishes six New Standards for Priority Assistive Products",
+      "question": "Which organisation or authority is most directly associated with this update: 'Strengthening Accessibility: BIS publishes six New Standards for Priority Assistive Products'?",
+      "options": [
+        "Ministry of Consumer Affairs, Food & Public Distribution",
+        "Ministry of Commerce and Industry",
+        "PRESIDENT OF INDIA",
+        "Ministry of Defence"
+      ],
+      "correct_answer": "Ministry of Consumer Affairs, Food & Public Distribution",
+      "explanation": "Ministry of Consumer Affairs, Food & Public Distribution reported 'Strengthening Accessibility: BIS publishes six New Standards for Priority Assistive Products' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of consumer affairs, food & public distribution"
+      ],
+      "source": {
+        "title": "Strengthening Accessibility: BIS publishes six New Standards for Priority Assistive Products",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257271",
+        "publisher": "Ministry of Consumer Affairs, Food & Public Distribution",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-009-shri-vishvajit-sahay-assumes-the-charge-as-secretary-defence",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Shri Vishvajit Sahay assumes the charge as Secretary (Defence Finance)",
+      "question": "Which organisation or authority is most directly associated with this update: 'Shri Vishvajit Sahay assumes the charge as Secretary (Defence Finance)'?",
+      "options": [
+        "Ministry of Defence",
+        "Houselisting Operations under Census 2027",
+        "Ministry of Finance",
+        "AYUSH"
+      ],
+      "correct_answer": "Ministry of Defence",
+      "explanation": "Ministry of Defence reported 'Shri Vishvajit Sahay assumes the charge as Secretary (Defence Finance)' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of defence"
+      ],
+      "source": {
+        "title": "Shri Vishvajit Sahay assumes the charge as Secretary (Defence Finance)",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257231",
+        "publisher": "Ministry of Defence",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-010-shri-ashutosh-gowariker-appointed-as-festival-director-for-5",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "digital-governance",
+      "difficulty": "easy",
+      "fact": "Shri Ashutosh Gowariker Appointed as Festival Director for 57th International Film Festival of India",
+      "question": "Which organisation or authority is most directly associated with this update: 'Shri Ashutosh Gowariker Appointed as Festival Director for 57th International Film Festival of India'?",
+      "options": [
+        "Ministry of Information & Broadcasting",
+        "ISRO",
+        "Odisha Gets a New Development Push as Double Engine Government",
+        "Ministry of Electronics and Information Technology"
+      ],
+      "correct_answer": "Ministry of Information & Broadcasting",
+      "explanation": "Ministry of Information & Broadcasting reported 'Shri Ashutosh Gowariker Appointed as Festival Director for 57th International Film Festival of India' on 2026-05-01.",
+      "tags": [
+        "app",
+        "digital-governance",
+        "ministry of information & broadcasting"
+      ],
+      "source": {
+        "title": "Shri Ashutosh Gowariker Appointed as Festival Director for 57th International Film Festival of India",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257218",
+        "publisher": "Ministry of Information & Broadcasting",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-011-shri-anugraha-narayana-das-takes-charge-as-controller-genera",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Shri Anugraha Narayana Das takes charge as Controller General of Defence Accounts",
+      "question": "Which organisation or authority is most directly associated with this update: 'Shri Anugraha Narayana Das takes charge as Controller General of Defence Accounts'?",
+      "options": [
+        "Ministry of Defence",
+        "Ministry of Information & Broadcasting",
+        "Prime Minister",
+        "Ministry of MSME"
+      ],
+      "correct_answer": "Ministry of Defence",
+      "explanation": "Ministry of Defence reported 'Shri Anugraha Narayana Das takes charge as Controller General of Defence Accounts' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of defence"
+      ],
+      "source": {
+        "title": "Shri Anugraha Narayana Das takes charge as Controller General of Defence Accounts",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257308",
+        "publisher": "Ministry of Defence",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-012-prime-minister-shares-an-article-highlighting-the-transforma",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "social-welfare",
+      "difficulty": "easy",
+      "fact": "Prime Minister shares an article highlighting the transformative impact of Pradhan Mantri Ujjwala Yojana",
+      "question": "Which organisation or authority is most directly associated with this update: 'Prime Minister shares an article highlighting the transformative impact of Pradhan Mantri Ujjwala Yojana'?",
+      "options": [
+        "Prime Minister",
+        "PIB Headquarters",
+        "Reserve Bank of India",
+        "Ministry of Earth Sciences"
+      ],
+      "correct_answer": "Prime Minister",
+      "explanation": "PIB reported 'Prime Minister shares an article highlighting the transformative impact of Pradhan Mantri Ujjwala Yojana' on 2026-05-01.",
+      "tags": [
+        "pib",
+        "social-welfare"
+      ],
+      "source": {
+        "title": "Prime Minister shares an article highlighting the transformative impact of Pradhan Mantri Ujjwala Yojana",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257207",
+        "publisher": "PIB",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-013-prime-minister-greets-everyone-on-buddha-purnima",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Prime Minister greets everyone on Buddha Purnima",
+      "question": "Which organisation or authority is most directly associated with this update: 'Prime Minister greets everyone on Buddha Purnima'?",
+      "options": [
+        "Government of India",
+        "Fast evolving realms of governance",
+        "Ministry of Education",
+        "Ministry of Health and Family Welfare"
+      ],
+      "correct_answer": "Government of India",
+      "explanation": "PIB reported 'Prime Minister greets everyone on Buddha Purnima' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "pib"
+      ],
+      "source": {
+        "title": "Prime Minister greets everyone on Buddha Purnima",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257171",
+        "publisher": "PIB",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-014-prime-minister-extends-greetings-to-the-people-of-maharashtr",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Prime Minister extends greetings to the people of Maharashtra on Maharashtra Day",
+      "question": "Which organisation or authority is most directly associated with this update: 'Prime Minister extends greetings to the people of Maharashtra on Maharashtra Day'?",
+      "options": [
+        "Government of India",
+        "Ministry of Commerce and Industry",
+        "ISRO",
+        "Ministry of Consumer Affairs, Food & Public Distribution"
+      ],
+      "correct_answer": "Government of India",
+      "explanation": "PIB reported 'Prime Minister extends greetings to the people of Maharashtra on Maharashtra Day' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "pib"
+      ],
+      "source": {
+        "title": "Prime Minister extends greetings to the people of Maharashtra on Maharashtra Day",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257172",
+        "publisher": "PIB",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-015-prime-minister-extends-greetings-to-the-people-of-gujarat-on",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Prime Minister extends greetings to the people of Gujarat on Gujarat Day",
+      "question": "Which organisation or authority is most directly associated with this update: 'Prime Minister extends greetings to the people of Gujarat on Gujarat Day'?",
+      "options": [
+        "Government of India",
+        "Ministry of Health and Family Welfare",
+        "Union Minister Nitin Gadkari",
+        "Ministry of Consumer Affairs, Food & Public Distribution"
+      ],
+      "correct_answer": "Government of India",
+      "explanation": "PIB reported 'Prime Minister extends greetings to the people of Gujarat on Gujarat Day' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "pib"
+      ],
+      "source": {
+        "title": "Prime Minister extends greetings to the people of Gujarat on Gujarat Day",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257173",
+        "publisher": "PIB",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-016-president-of-india-visits-headquarters-army-training-command",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "PRESIDENT OF INDIA VISITS HEADQUARTERS ARMY TRAINING COMMAND",
+      "question": "Which organisation or authority is most directly associated with this update: 'PRESIDENT OF INDIA VISITS HEADQUARTERS ARMY TRAINING COMMAND'?",
+      "options": [
+        "PRESIDENT OF INDIA",
+        "Ministry of Panchayati Raj",
+        "Global",
+        "Ministry of Defence"
+      ],
+      "correct_answer": "PRESIDENT OF INDIA",
+      "explanation": "Ministry of Defence reported 'PRESIDENT OF INDIA VISITS HEADQUARTERS ARMY TRAINING COMMAND' on 2026-05-01.",
+      "tags": [
+        "ai",
+        "governance",
+        "ministry of defence"
+      ],
+      "source": {
+        "title": "PRESIDENT OF INDIA VISITS HEADQUARTERS ARMY TRAINING COMMAND",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257210",
+        "publisher": "Ministry of Defence",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-017-operation-white-strike-ncb-busts-major-cocaine-syndicate-in-",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "digital-governance",
+      "difficulty": "medium",
+      "fact": "Operation WHITE STRIKE: NCB Busts Major Cocaine Syndicate in Mumbai Region seizing 349 kg High-Grade Cocaine worth an Estimated Value ₹1,745 Crore",
+      "question": "According to the official update 'Operation WHITE STRIKE: NCB Busts Major Cocaine Syndicate in Mumbai Region seizing 349 kg High-Grade Cocaine worth an Estimated Value ₹1,745 Crore', what key numerical figure was highlighted?",
+      "options": [
+        "349 kg",
+        "322 kg",
+        "376 kg",
+        "268 kg"
+      ],
+      "correct_answer": "349 kg",
+      "explanation": "Ministry of Home Affairs reported 'Operation WHITE STRIKE: NCB Busts Major Cocaine Syndicate in Mumbai Region seizing 349 kg High-Grade Cocaine worth an Estimated Value ₹1,745 Crore' on 2026-05-01.",
+      "tags": [
+        "ai",
+        "digital-governance",
+        "ministry of home affairs"
+      ],
+      "source": {
+        "title": "Operation WHITE STRIKE: NCB Busts Major Cocaine Syndicate in Mumbai Region seizing 349 kg High-Grade Cocaine worth an Estimated Value ₹1,745 Crore",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257339",
+        "publisher": "Ministry of Home Affairs",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-018-odisha-gets-a-new-development-push-as-double-engine-governme",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Odisha Gets a New Development Push as Double Engine Government Launches Fresh Growth Agenda from Rayagada",
+      "question": "Which organisation or authority is most directly associated with this update: 'Odisha Gets a New Development Push as Double Engine Government Launches Fresh Growth Agenda from Rayagada'?",
+      "options": [
+        "Odisha Gets a New Development Push as Double Engine Government",
+        "Ministry of Consumer Affairs, Food & Public Distribution",
+        "5th India–Tanzania Joint Trade Committee Meeting",
+        "NITI Aayog"
+      ],
+      "correct_answer": "Odisha Gets a New Development Push as Double Engine Government",
+      "explanation": "Ministry of Rural Development reported 'Odisha Gets a New Development Push as Double Engine Government Launches Fresh Growth Agenda from Rayagada' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of rural development"
+      ],
+      "source": {
+        "title": "Odisha Gets a New Development Push as Double Engine Government Launches Fresh Growth Agenda from Rayagada",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257288",
+        "publisher": "Ministry of Rural Development",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-019-national-summit-on-innovation-and-inclusivity-concludes-with",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "health",
+      "difficulty": "easy",
+      "fact": "National Summit on Innovation and Inclusivity Concludes with Emphasis on Best Practices, New Initiatives, and Strengthened Health Systems",
+      "question": "Which organisation or authority is most directly associated with this update: 'National Summit on Innovation and Inclusivity Concludes with Emphasis on Best Practices, New Initiatives, and Strengthened Health Systems'?",
+      "options": [
+        "Ministry of Health and Family Welfare",
+        "Houselisting Operations under Census 2027",
+        "Global",
+        "Ministry of Cooperation"
+      ],
+      "correct_answer": "Ministry of Health and Family Welfare",
+      "explanation": "Ministry of Health and Family Welfare reported 'National Summit on Innovation and Inclusivity Concludes with Emphasis on Best Practices, New Initiatives, and Strengthened Health Systems' on 2026-05-01.",
+      "tags": [
+        "health",
+        "ministry of health and family welfare"
+      ],
+      "source": {
+        "title": "National Summit on Innovation and Inclusivity Concludes with Emphasis on Best Practices, New Initiatives, and Strengthened Health Systems",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257267",
+        "publisher": "Ministry of Health and Family Welfare",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-020-ministry-of-parliamentary-affairs-concludes-swachhata-pakhwa",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Ministry of Parliamentary Affairs Concludes Swachhata Pakhwada–2026 with Active Participation and Tangible Outcomes",
+      "question": "Which organisation or authority is most directly associated with this update: 'Ministry of Parliamentary Affairs Concludes Swachhata Pakhwada–2026 with Active Participation and Tangible Outcomes'?",
+      "options": [
+        "Ministry of Parliamentary Affairs",
+        "Fast evolving realms of governance",
+        "Ministry of Electronics and Information Technology",
+        "Government of India"
+      ],
+      "correct_answer": "Ministry of Parliamentary Affairs",
+      "explanation": "Ministry of Parliamentary Affairs reported 'Ministry of Parliamentary Affairs Concludes Swachhata Pakhwada–2026 with Active Participation and Tangible Outcomes' on 2026-05-01.",
+      "tags": [
+        "ai",
+        "governance",
+        "ministry of parliamentary affairs"
+      ],
+      "source": {
+        "title": "Ministry of Parliamentary Affairs Concludes Swachhata Pakhwada–2026 with Active Participation and Tangible Outcomes",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257211",
+        "publisher": "Ministry of Parliamentary Affairs",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-021-ministry-of-panchayati-raj-to-organize-outreach-workshop-on-",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Ministry of Panchayati Raj to organize outreach workshop on Atmanirbhar Panchayat Initiative at NIRD&PR, Hyderabad on 2 May 2026",
+      "question": "Which organisation or authority is most directly associated with this update: 'Ministry of Panchayati Raj to organize outreach workshop on Atmanirbhar Panchayat Initiative at NIRD&PR, Hyderabad on 2 May 2026'?",
+      "options": [
+        "Ministry of Panchayati Raj",
+        "Ministry of Education",
+        "Ministry of Labour & Employment",
+        "NITI Aayog"
+      ],
+      "correct_answer": "Ministry of Panchayati Raj",
+      "explanation": "Ministry of Panchayati Raj reported 'Ministry of Panchayati Raj to organize outreach workshop on Atmanirbhar Panchayat Initiative at NIRD&PR, Hyderabad on 2 May 2026' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "ministry of panchayati raj"
+      ],
+      "source": {
+        "title": "Ministry of Panchayati Raj to organize outreach workshop on Atmanirbhar Panchayat Initiative at NIRD&PR, Hyderabad on 2 May 2026",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257265",
+        "publisher": "Ministry of Panchayati Raj",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-022-inauguration-of-open-field-observatory-of-coastal-atmospheri",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "education",
+      "difficulty": "easy",
+      "fact": "Inauguration of Open-Field Observatory of Coastal Atmospheric Research Testbed (C-ART), at Andhra University, Visakhapatnam",
+      "question": "Which organisation or authority is most directly associated with this update: 'Inauguration of Open-Field Observatory of Coastal Atmospheric Research Testbed (C-ART), at Andhra University, Visakhapatnam'?",
+      "options": [
+        "Ministry of Earth Sciences",
+        "Fast evolving realms of governance",
+        "Ministry of Labour and Employment",
+        "Ministry of Labour & Employment"
+      ],
+      "correct_answer": "Ministry of Earth Sciences",
+      "explanation": "Ministry of Earth Sciences reported 'Inauguration of Open-Field Observatory of Coastal Atmospheric Research Testbed (C-ART), at Andhra University, Visakhapatnam' on 2026-05-01.",
+      "tags": [
+        "education",
+        "ministry of earth sciences"
+      ],
+      "source": {
+        "title": "Inauguration of Open-Field Observatory of Coastal Atmospheric Research Testbed (C-ART), at Andhra University, Visakhapatnam",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257296",
+        "publisher": "Ministry of Earth Sciences",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-023-houselisting-operations-under-census-2027-begins-in-andhra-p",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Houselisting Operations under Census 2027 begins in Andhra Pradesh, Arunachal Pradesh, Haryana, Chandigarh, Madhya Pradesh and Chhattisgarh",
+      "question": "According to the official update 'Houselisting Operations under Census 2027 begins in Andhra Pradesh, Arunachal Pradesh, Haryana, Chandigarh, Madhya Pradesh and Chhattisgarh', where did this event take place?",
+      "options": [
+        "Andhra Pradesh, Arunachal Pradesh",
+        "Chennai",
+        "New Delhi",
+        "Mohali"
+      ],
+      "correct_answer": "Andhra Pradesh, Arunachal Pradesh",
+      "explanation": "Ministry of Home Affairs reported 'Houselisting Operations under Census 2027 begins in Andhra Pradesh, Arunachal Pradesh, Haryana, Chandigarh, Madhya Pradesh and Chhattisgarh' on 2026-05-01.",
+      "tags": [
+        "census",
+        "governance",
+        "ministry of home affairs"
+      ],
+      "source": {
+        "title": "Houselisting Operations under Census 2027 begins in Andhra Pradesh, Arunachal Pradesh, Haryana, Chandigarh, Madhya Pradesh and Chhattisgarh",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257366",
+        "publisher": "Ministry of Home Affairs",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-024-great-nicobar-project-faqs",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Great Nicobar Project: FAQs",
+      "question": "Which organisation or authority is most directly associated with this update: 'Great Nicobar Project: FAQs'?",
+      "options": [
+        "PIB Headquarters",
+        "Government of India",
+        "Ministry of Women and Child Development",
+        "Ministry of MSME"
+      ],
+      "correct_answer": "PIB Headquarters",
+      "explanation": "PIB Headquarters reported 'Great Nicobar Project: FAQs' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "pib headquarters"
+      ],
+      "source": {
+        "title": "Great Nicobar Project: FAQs",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257323",
+        "publisher": "PIB Headquarters",
+        "published_on": "2026-05-01"
+      }
+    },
+    {
+      "id": "auto-20260501-025-great-nicobar-project",
+      "exam": "ssc",
+      "as_of_date": "2026-05-01",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "Great Nicobar Project",
+      "question": "Which organisation or authority is most directly associated with this update: 'Great Nicobar Project'?",
+      "options": [
+        "PIB Headquarters",
+        "Ministry of Labour and Employment",
+        "Ministry of Labour & Employment",
+        "Reserve Bank of India"
+      ],
+      "correct_answer": "PIB Headquarters",
+      "explanation": "PIB Headquarters reported 'Great Nicobar Project' on 2026-05-01.",
+      "tags": [
+        "governance",
+        "pib headquarters"
+      ],
+      "source": {
+        "title": "Great Nicobar Project",
+        "url": "https://www.pib.gov.in/PressReleseDetail.aspx?PRID=2257174",
+        "publisher": "PIB Headquarters",
+        "published_on": "2026-05-01"
+      }
+    }
+  ]
+}
