@@ -46,6 +46,14 @@ def test_generate_questions() -> None:
     assert len(payload["questions"]) == 3
 
 
+def test_generate_questions_get() -> None:
+    response = client.get("/api/v1/questions/generate?count=5&shuffle_options=false&seed=7")
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["returned"] == 5
+    assert len(payload["questions"]) == 5
+
+
 def test_question_lookup() -> None:
     questions_response = client.get("/api/v1/questions?limit=1&randomize=false&shuffle_options=false")
     assert questions_response.status_code == 200

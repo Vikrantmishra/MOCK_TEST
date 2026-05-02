@@ -109,6 +109,39 @@ def questions(
     )
 
 
+@app.get("/api/v1/questions/generate", response_model=QuestionsResponse)
+def generate_questions_get(
+    count: int = Query(default=25, ge=1, le=100),
+    categories: str | None = Query(default=None, description="Comma-separated categories"),
+    difficulty: str | None = None,
+    tags: str | None = Query(default=None, description="Comma-separated tags"),
+    search: str | None = None,
+    shuffle_questions: bool = True,
+    shuffle_options: bool = True,
+    include_explanations: bool = True,
+    include_sources: bool = True,
+    seed: int | None = None,
+) -> QuestionsResponse:
+    category_list = [category.strip() for category in categories.split(",")] if categories else []
+    tag_list = [tag.strip() for tag in tags.split(",")] if tags else []
+    filtered = filter_questions(
+        difficulty=difficulty,
+        tags=tag_list,
+        search=search,
+        categories=category_list,
+    )
+    return build_questions_response(
+        filtered,
+        limit=count,
+        offset=0,
+        randomize=shuffle_questions,
+        shuffle_options=shuffle_options,
+        include_explanations=include_explanations,
+        include_sources=include_sources,
+        seed=seed,
+    )
+
+
 @app.get("/api/v1/questions/{question_id}", response_model=GeneratedQuestion)
 def question_by_id(
     question_id: str,
