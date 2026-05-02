@@ -17,20 +17,34 @@ from .models import (
 )
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
-DEFAULT_DATA_PATH = DATA_DIR / "current_affairs_latest.json"
+DYNAMIC_DATA_PATH = DATA_DIR / "current_affairs_latest.json"
+STATIC_YEAR_DATA_PATH = DATA_DIR / "current_affairs_static_year.json"
 LEGACY_DATA_PATH = DATA_DIR / "current_affairs_2026_04_23.json"
+DEFAULT_STATIC_SHARE = 18
+DEFAULT_DYNAMIC_SHARE = 7
+DEFAULT_MIX_TOTAL = DEFAULT_STATIC_SHARE + DEFAULT_DYNAMIC_SHARE
 
 
-def resolve_data_path() -> Path:
-    configured = os.getenv("SSC_CURRENT_AFFAIRS_DATA_PATH")
+def resolve_dynamic_data_path() -> Path:
+    configured = os.getenv("SSC_CURRENT_AFFAIRS_DYNAMIC_DATA_PATH")
     if configured:
         return Path(configured).expanduser().resolve()
-    if DEFAULT_DATA_PATH.exists():
-        return DEFAULT_DATA_PATH
+    if DYNAMIC_DATA_PATH.exists():
+        return DYNAMIC_DATA_PATH
     return LEGACY_DATA_PATH
 
 
-DATA_PATH = resolve_data_path()
+def resolve_static_data_path() -> Path:
+    configured = os.getenv("SSC_CURRENT_AFFAIRS_STATIC_DATA_PATH")
+    if configured:
+        return Path(configured).expanduser().resolve()
+    if STATIC_YEAR_DATA_PATH.exists():
+        return STATIC_YEAR_DATA_PATH
+    return LEGACY_DATA_PATH
+
+
+DYNAMIC_PATH = resolve_dynamic_data_path()
+STATIC_PATH = resolve_static_data_path()
 
 
 def _normalize(value: str) -> str:
@@ -45,20 +59,51 @@ def _make_rng(seed: int | None) -> random.Random:
     return random.Random(seed)
 
 
+def _payload_from_path(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
 @lru_cache(maxsize=1)
-def load_dataset_payload() -> dict:
-    return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+def load_dynamic_dataset_payload() -> dict:
+    return _payload_from_path(DYNAMIC_PATH)
+
+
+@lru_cache(maxsize=1)
+def load_static_dataset_payload() -> dict:
+    return _payload_from_path(STATIC_PATH)
+
+
+def _tagged_questions(payload: dict, bank_tag: str) -> list[QuestionRecord]:
+    tagged: list[QuestionRecord] = []
+    for item in payload["questions"]:
+        enriched = dict(item)
+        tags = list(enriched.get("tags", []))
+        if bank_tag not in tags:
+            tags.append(bank_tag)
+        enriched["tags"] = tags
+        tagged.append(QuestionRecord.model_validate(enriched))
+    return tagged
+
+
+@lru_cache(maxsize=1)
+def load_dynamic_questions() -> list[QuestionRecord]:
+    return _tagged_questions(load_dynamic_dataset_payload(), "dynamic-bank")
+
+
+@lru_cache(maxsize=1)
+def load_static_questions() -> list[QuestionRecord]:
+    return _tagged_questions(load_static_dataset_payload(), "static-year-bank")
 
 
 @lru_cache(maxsize=1)
 def load_questions() -> list[QuestionRecord]:
-    payload = load_dataset_payload()
-    return [QuestionRecord.model_validate(item) for item in payload["questions"]]
+    return load_static_questions() + load_dynamic_questions()
 
 
 def get_dataset_summary() -> DatasetSummary:
-    payload = load_dataset_payload()
     questions = load_questions()
+    static_payload = load_static_dataset_payload()
+    dynamic_payload = load_dynamic_dataset_payload()
     category_counts = Counter(question.category for question in questions)
     categories = [
         CategorySummary(name=name, question_count=count)
@@ -69,10 +114,10 @@ def get_dataset_summary() -> DatasetSummary:
         for question in questions
     }
     return DatasetSummary(
-        dataset_name=payload["dataset_name"],
-        as_of_date=payload["as_of_date"],
-        coverage_start=payload["coverage_start"],
-        coverage_end=payload["coverage_end"],
+        dataset_name=dynamic_payload.get("dataset_name", static_payload.get("dataset_name", "SSC Current Affairs MCQs")),
+        as_of_date=dynamic_payload.get("as_of_date", static_payload["as_of_date"]),
+        coverage_start=min(static_payload["coverage_start"], dynamic_payload["coverage_start"]),
+        coverage_end=max(static_payload["coverage_end"], dynamic_payload["coverage_end"]),
         total_questions=len(questions),
         categories=categories,
         sources=len(unique_sources),
@@ -116,7 +161,15 @@ def filter_questions(
     tags: list[str] | None = None,
     search: str | None = None,
     categories: list[str] | None = None,
+    bank: str = "combined",
 ) -> list[QuestionRecord]:
+    if bank == "static":
+        question_pool = load_static_questions()
+    elif bank == "dynamic":
+        question_pool = load_dynamic_questions()
+    else:
+        question_pool = load_questions()
+
     category_filter = _normalize(category) if category else None
     categories_filter = _normalize_many(categories or [])
     difficulty_filter = _normalize(difficulty) if difficulty else None
@@ -124,7 +177,7 @@ def filter_questions(
     search_filter = _normalize(search) if search else None
 
     filtered: list[QuestionRecord] = []
-    for question in load_questions():
+    for question in question_pool:
         if category_filter and _normalize(question.category) != category_filter:
             continue
         if categories_filter and _normalize(question.category) not in categories_filter:
@@ -151,6 +204,63 @@ def filter_questions(
                 continue
         filtered.append(question)
     return filtered
+
+
+def calculate_mix_counts(
+    *,
+    total_needed: int,
+    available_static: int,
+    available_dynamic: int,
+) -> tuple[int, int]:
+    if total_needed <= 0:
+        return 0, 0
+
+    if total_needed == DEFAULT_MIX_TOTAL:
+        static_target = min(DEFAULT_STATIC_SHARE, available_static)
+        dynamic_target = min(DEFAULT_DYNAMIC_SHARE, available_dynamic)
+    else:
+        static_ratio = DEFAULT_STATIC_SHARE / DEFAULT_MIX_TOTAL
+        static_target = min(available_static, round(total_needed * static_ratio))
+        dynamic_target = min(available_dynamic, total_needed - static_target)
+
+    remaining = total_needed - static_target - dynamic_target
+    if remaining > 0:
+        static_extra = min(available_static - static_target, remaining)
+        static_target += static_extra
+        remaining -= static_extra
+    if remaining > 0:
+        dynamic_extra = min(available_dynamic - dynamic_target, remaining)
+        dynamic_target += dynamic_extra
+
+    return static_target, dynamic_target
+
+
+def build_mixed_question_records(
+    static_questions: list[QuestionRecord],
+    dynamic_questions: list[QuestionRecord],
+    *,
+    limit: int,
+    offset: int,
+    randomize: bool,
+    seed: int | None,
+) -> list[QuestionRecord]:
+    rng = _make_rng(seed)
+    available_static = list(static_questions)
+    available_dynamic = list(dynamic_questions)
+    if randomize:
+        rng.shuffle(available_static)
+        rng.shuffle(available_dynamic)
+
+    total_needed = offset + limit
+    static_count, dynamic_count = calculate_mix_counts(
+        total_needed=total_needed,
+        available_static=len(available_static),
+        available_dynamic=len(available_dynamic),
+    )
+    combined = available_static[:static_count] + available_dynamic[:dynamic_count]
+    if randomize:
+        rng.shuffle(combined)
+    return combined[offset : offset + limit]
 
 
 def render_question(
@@ -212,6 +322,46 @@ def build_questions_response(
     summary = get_dataset_summary()
     return QuestionsResponse(
         total_available=len(questions),
+        returned=len(rendered),
+        as_of_date=summary.as_of_date,
+        questions=rendered,
+    )
+
+
+def build_mixed_questions_response(
+    static_questions: list[QuestionRecord],
+    dynamic_questions: list[QuestionRecord],
+    *,
+    limit: int,
+    offset: int = 0,
+    randomize: bool,
+    shuffle_options: bool,
+    include_explanations: bool,
+    include_sources: bool,
+    seed: int | None,
+) -> QuestionsResponse:
+    mixed_records = build_mixed_question_records(
+        static_questions,
+        dynamic_questions,
+        limit=limit,
+        offset=offset,
+        randomize=randomize,
+        seed=seed,
+    )
+    rng = _make_rng(seed)
+    rendered = [
+        render_question(
+            question,
+            shuffle_options=shuffle_options,
+            include_explanations=include_explanations,
+            include_sources=include_sources,
+            rng=rng,
+        )
+        for question in mixed_records
+    ]
+    summary = get_dataset_summary()
+    return QuestionsResponse(
+        total_available=len(static_questions) + len(dynamic_questions),
         returned=len(rendered),
         as_of_date=summary.as_of_date,
         questions=rendered,

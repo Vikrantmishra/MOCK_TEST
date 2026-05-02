@@ -25,7 +25,7 @@ def test_dataset() -> None:
     assert response.status_code == 200
     payload = response.json()
     assert payload["dataset_name"] == "SSC Current Affairs MCQs"
-    assert payload["total_questions"] >= 20
+    assert payload["total_questions"] >= 50
     assert payload["as_of_date"]
 
 
@@ -47,11 +47,15 @@ def test_generate_questions() -> None:
 
 
 def test_generate_questions_get() -> None:
-    response = client.get("/api/v1/questions/generate?count=5&shuffle_options=false&seed=7")
+    response = client.get("/api/v1/questions/generate?count=25&shuffle_options=false&seed=7")
     assert response.status_code == 200
     payload = response.json()
-    assert payload["returned"] == 5
-    assert len(payload["questions"]) == 5
+    assert payload["returned"] == 25
+    assert len(payload["questions"]) == 25
+    static_count = sum("static-year-bank" in question["tags"] for question in payload["questions"])
+    dynamic_count = sum("dynamic-bank" in question["tags"] for question in payload["questions"])
+    assert static_count == 18
+    assert dynamic_count == 7
 
 
 def test_question_lookup() -> None:

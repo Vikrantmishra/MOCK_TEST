@@ -2,7 +2,12 @@
 
 This is a small FastAPI service for serving SSC-style current affairs MCQs.
 
-The API now reads from a stable `app/data/current_affairs_latest.json` file so it can be refreshed automatically without changing the API code path.
+The API now serves a mixed bank:
+
+- `18` questions from `app/data/current_affairs_static_year.json`
+- `7` questions from `app/data/current_affairs_latest.json`
+
+This keeps the response fresh while still preserving a broader static preparation base.
 
 ## Features
 
@@ -13,6 +18,7 @@ The API now reads from a stable `app/data/current_affairs_latest.json` file so i
 - Optional option shuffling
 - Source links and explanations included in every MCQ
 - Scheduled GitHub Actions refresh pipeline for new question sets
+- Mixed response mode: `18 static-year + 7 dynamic` for the default 25-question pack
 
 ## Run locally
 
@@ -61,7 +67,7 @@ curl -X POST "http://127.0.0.1:8000/api/v1/questions/generate" ^
 
 ## Notes
 
-- The live API reads [current_affairs_latest.json](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\app\data\current_affairs_latest.json).
+- The live API combines [current_affairs_static_year.json](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\app\data\current_affairs_static_year.json) with [current_affairs_latest.json](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\app\data\current_affairs_latest.json).
 - Fresh question banks can be generated locally with:
 
 ```bash
@@ -70,4 +76,5 @@ python scripts/update_current_affairs.py
 
 - The scheduled workflow lives at [update_current_affairs.yml](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\.github\workflows\update_current_affairs.yml) and runs daily. It only commits a new dataset when the current one is at least 3 days old or has reached the 5-day force-refresh window.
 - Archived snapshots are written to [app/data/archive](C:\Users\Vikrant Mishra\Downloads\Telegram Desktop\ssc_current_affairs_api\app\data\archive).
+- The default 25-question API pack uses an `18:7` static-to-dynamic split. Other counts use the same ratio as closely as possible.
 - Every question stores source metadata so you can trace the fact used to build it.

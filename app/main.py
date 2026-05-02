@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .models import GenerateRequest, GeneratedQuestion, QuestionsResponse
 from .services import (
-    build_questions_response,
+    build_mixed_questions_response,
     filter_questions,
     get_dataset_summary,
     get_question_or_none,
@@ -91,14 +91,23 @@ def questions(
     seed: int | None = None,
 ) -> QuestionsResponse:
     tag_list = [tag.strip() for tag in tags.split(",")] if tags else []
-    filtered = filter_questions(
+    static_filtered = filter_questions(
         category=category,
         difficulty=difficulty,
         tags=tag_list,
         search=search,
+        bank="static",
     )
-    return build_questions_response(
-        filtered,
+    dynamic_filtered = filter_questions(
+        category=category,
+        difficulty=difficulty,
+        tags=tag_list,
+        search=search,
+        bank="dynamic",
+    )
+    return build_mixed_questions_response(
+        static_filtered,
+        dynamic_filtered,
         limit=limit,
         offset=offset,
         randomize=randomize,
@@ -124,14 +133,23 @@ def generate_questions_get(
 ) -> QuestionsResponse:
     category_list = [category.strip() for category in categories.split(",")] if categories else []
     tag_list = [tag.strip() for tag in tags.split(",")] if tags else []
-    filtered = filter_questions(
+    static_filtered = filter_questions(
         difficulty=difficulty,
         tags=tag_list,
         search=search,
         categories=category_list,
+        bank="static",
     )
-    return build_questions_response(
-        filtered,
+    dynamic_filtered = filter_questions(
+        difficulty=difficulty,
+        tags=tag_list,
+        search=search,
+        categories=category_list,
+        bank="dynamic",
+    )
+    return build_mixed_questions_response(
+        static_filtered,
+        dynamic_filtered,
         limit=count,
         offset=0,
         randomize=shuffle_questions,
@@ -167,14 +185,23 @@ def question_by_id(
 
 @app.post("/api/v1/questions/generate", response_model=QuestionsResponse)
 def generate_questions(payload: GenerateRequest) -> QuestionsResponse:
-    filtered = filter_questions(
+    static_filtered = filter_questions(
         difficulty=payload.difficulty,
         tags=payload.tags,
         search=payload.search,
         categories=payload.categories,
+        bank="static",
     )
-    return build_questions_response(
-        filtered,
+    dynamic_filtered = filter_questions(
+        difficulty=payload.difficulty,
+        tags=payload.tags,
+        search=payload.search,
+        categories=payload.categories,
+        bank="dynamic",
+    )
+    return build_mixed_questions_response(
+        static_filtered,
+        dynamic_filtered,
         limit=payload.count,
         offset=0,
         randomize=payload.shuffle_questions,

@@ -1,0 +1,708 @@
+{
+  "dataset_name": "SSC Current Affairs MCQs",
+  "as_of_date": "2026-04-23",
+  "coverage_start": "2026-03-27",
+  "coverage_end": "2026-04-23",
+  "questions": [
+    {
+      "id": "q001-poshan-mission",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "social-welfare",
+      "difficulty": "easy",
+      "fact": "The 8th Poshan Pakhwada 2026 is being observed from 9 April to 23 April 2026 under Mission Poshan 2.0.",
+      "question": "Under which mission is Poshan Pakhwada 2026 being observed?",
+      "options": [
+        "Mission Poshan 2.0",
+        "PM Gati Shakti",
+        "Digital India Mission",
+        "Jal Jeevan Mission"
+      ],
+      "correct_answer": "Mission Poshan 2.0",
+      "explanation": "PIB said the 8th Poshan Pakhwada 2026 is being observed from 9 April to 23 April 2026 under Mission Poshan 2.0.",
+      "tags": [
+        "nutrition",
+        "women-and-child-development",
+        "campaign"
+      ],
+      "source": {
+        "title": "National launch of 8th Poshan Pakhwada 2026",
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2249920",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-08"
+      }
+    },
+    {
+      "id": "q002-poshan-theme",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "social-welfare",
+      "difficulty": "easy",
+      "fact": "The 8th Poshan Pakhwada 2026 focuses on early childhood nutrition and development.",
+      "question": "What is the theme of the 8th Poshan Pakhwada 2026?",
+      "options": [
+        "Maximizing Brain Development in the First Six Years of Life",
+        "Anaemia Free India by 2030",
+        "Nutrition Through Millet Revolution",
+        "Healthy Villages Healthy Families"
+      ],
+      "correct_answer": "Maximizing Brain Development in the First Six Years of Life",
+      "explanation": "The official PIB release said the theme for the 8th Poshan Pakhwada is 'Maximizing Brain Development in the First Six Years of Life'.",
+      "tags": [
+        "nutrition",
+        "theme",
+        "women-and-child-development"
+      ],
+      "source": {
+        "title": "National launch of 8th Poshan Pakhwada 2026",
+        "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2249920",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-08"
+      }
+    },
+    {
+      "id": "q003-pmmy-launch-year",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "economy",
+      "difficulty": "easy",
+      "fact": "Pradhan Mantri MUDRA Yojana completed 11 years in April 2026.",
+      "question": "Pradhan Mantri MUDRA Yojana was launched in which year?",
+      "options": [
+        "2015",
+        "2014",
+        "2016",
+        "2017"
+      ],
+      "correct_answer": "2015",
+      "explanation": "The PIB background note on 11 years of PMMY states that the scheme was launched on 8 April 2015.",
+      "tags": [
+        "mudra",
+        "banking",
+        "government-scheme"
+      ],
+      "source": {
+        "title": "11 Years of Pradhan Mantri MUDRA Yojana",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc202648842601.pdf",
+        "publisher": "PIB Research Unit",
+        "published_on": "2026-04-08"
+      }
+    },
+    {
+      "id": "q004-pmmy-tagline",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "economy",
+      "difficulty": "easy",
+      "fact": "PMMY is designed to expand credit access for small entrepreneurs.",
+      "question": "Which phrase is closely associated with Pradhan Mantri MUDRA Yojana?",
+      "options": [
+        "Funding the Unfunded",
+        "Study in India",
+        "One Nation One Fertiliser",
+        "Vocal for Local"
+      ],
+      "correct_answer": "Funding the Unfunded",
+      "explanation": "The PIB note on 11 years of PMMY describes the scheme as a step taken with the vision of 'Funding the Unfunded'.",
+      "tags": [
+        "mudra",
+        "tagline",
+        "entrepreneurship"
+      ],
+      "source": {
+        "title": "11 Years of Pradhan Mantri MUDRA Yojana",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/apr/doc202648842601.pdf",
+        "publisher": "PIB Research Unit",
+        "published_on": "2026-04-08"
+      }
+    },
+    {
+      "id": "q005-rbi-repo-rate",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "banking",
+      "difficulty": "easy",
+      "fact": "In the April 2026 monetary policy cycle, RBI kept the repo rate unchanged.",
+      "question": "In the April 2026 monetary policy review, RBI kept the policy repo rate unchanged at:",
+      "options": [
+        "5.25%",
+        "5.00%",
+        "5.50%",
+        "4.75%"
+      ],
+      "correct_answer": "5.25%",
+      "explanation": "The RBI rates page after the April 2026 policy cycle showed the policy repo rate at 5.25%.",
+      "tags": [
+        "rbi",
+        "repo-rate",
+        "monetary-policy"
+      ],
+      "source": {
+        "title": "Current Rates and Policy Snapshot",
+        "url": "https://m.rbi.org.in/Scripts/BS_ViewBulletin.aspx?Id=20936",
+        "publisher": "RBI",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q006-imd-monsoon-lpa",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "climate",
+      "difficulty": "medium",
+      "fact": "IMD's first-stage forecast said the 2026 southwest monsoon seasonal rainfall over India is likely to be below normal.",
+      "question": "According to IMD's first-stage long-range forecast for 2026, seasonal southwest monsoon rainfall over India is likely to be what percent of the Long Period Average?",
+      "options": [
+        "92%",
+        "96%",
+        "100%",
+        "105%"
+      ],
+      "correct_answer": "92%",
+      "explanation": "IMD's 13 April 2026 long-range forecast said seasonal rainfall for June to September 2026 is likely to be 92% of the Long Period Average, with a model error of plus or minus 5%.",
+      "tags": [
+        "imd",
+        "monsoon",
+        "forecast"
+      ],
+      "source": {
+        "title": "Long Range Forecast For the 2026 Southwest Monsoon Season Rainfall",
+        "url": "https://mausam.imd.gov.in/Forecast/mcmarq/mcmarq_data/english.pdf",
+        "publisher": "India Meteorological Department",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q007-gaganyaan-iadt02",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "space",
+      "difficulty": "easy",
+      "fact": "ISRO conducted the Second Integrated Air Drop Test (IADT-02) on 10 April 2026.",
+      "question": "ISRO's IADT-02 was conducted as part of readiness for which mission?",
+      "options": [
+        "Gaganyaan G1 Mission",
+        "Chandrayaan-4",
+        "Aditya-L2",
+        "NISAR"
+      ],
+      "correct_answer": "Gaganyaan G1 Mission",
+      "explanation": "ISRO said IADT-02 validated parachute-based deceleration systems and marked another step toward readiness for the Gaganyaan G1 mission.",
+      "tags": [
+        "isro",
+        "gaganyaan",
+        "crew-module"
+      ],
+      "source": {
+        "title": "ISRO conducts Second Integrated Air Drop Test (IADT-02) for Gaganyaan",
+        "url": "https://www.isro.gov.in/ISRO_EN/ISRO_conducts_Second_Integrated_Air_Drop_Test_for_Gaganyaan.html",
+        "publisher": "ISRO",
+        "published_on": "2026-04-10"
+      }
+    },
+    {
+      "id": "q008-is4om-issar",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "space",
+      "difficulty": "medium",
+      "fact": "ISRO released the Indian Space Situational Awareness Report for 2025 in April 2026.",
+      "question": "According to ISSAR-2025, which ISRO entity functions as the nodal body for space sustainability and SSA activities?",
+      "options": [
+        "IS4OM",
+        "ISTRAC",
+        "IN-SPACe",
+        "NRSC"
+      ],
+      "correct_answer": "IS4OM",
+      "explanation": "The report says ISRO System for Safe and Sustainable Space Operations Management, or IS4OM, is the nodal entity coordinating space sustainability and SSA work.",
+      "tags": [
+        "isro",
+        "space-situational-awareness",
+        "abbreviation"
+      ],
+      "source": {
+        "title": "Indian Space Situational Awareness Report for 2025 Released",
+        "url": "https://www.isro.gov.in/Indian_Space_Situational_Awareness_Report_2025.html",
+        "publisher": "ISRO",
+        "published_on": "2026-04-16"
+      }
+    },
+    {
+      "id": "q009-isro-tifr-mou",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "space",
+      "difficulty": "easy",
+      "fact": "ISRO signed an MoU on 20 April 2026 for scientific collaboration in space science, technology and exploration.",
+      "question": "ISRO signed an MoU on 20 April 2026 with which institution for collaboration in space science and related technologies?",
+      "options": [
+        "TIFR",
+        "IISc",
+        "IIT Bombay",
+        "DRDO"
+      ],
+      "correct_answer": "TIFR",
+      "explanation": "ISRO announced an MoU with the Tata Institute of Fundamental Research for collaboration in space science, technology and exploration.",
+      "tags": [
+        "isro",
+        "tifr",
+        "mou"
+      ],
+      "source": {
+        "title": "ISRO and TIFR Sign MoU for Collaboration in Space Science and Related Technologies",
+        "url": "https://www.isro.gov.in/ISRO_and_TIFR_Sign_MoU_for_Collaboration_n_Space_Science.html",
+        "publisher": "ISRO",
+        "published_on": "2026-04-20"
+      }
+    },
+    {
+      "id": "q010-egmo-host-country",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "education",
+      "difficulty": "easy",
+      "fact": "India secured its first-ever EGMO gold medal and best-ever team rank in 2026.",
+      "question": "The 15th European Girls' Mathematical Olympiad 2026 was held in Bordeaux. Bordeaux is in which country?",
+      "options": [
+        "France",
+        "Belgium",
+        "Switzerland",
+        "Austria"
+      ],
+      "correct_answer": "France",
+      "explanation": "The PIB release said EGMO 2026 was held in Bordeaux, France, from 9 April to 15 April 2026.",
+      "tags": [
+        "olympiad",
+        "education",
+        "mathematics"
+      ],
+      "source": {
+        "title": "Indian Team Achieves Historic Success at the 15th European Girls' Mathematical Olympiad 2026",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252276",
+        "publisher": "PIB Mumbai",
+        "published_on": "2026-04-15"
+      }
+    },
+    {
+      "id": "q011-egmo-rank",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "education",
+      "difficulty": "medium",
+      "fact": "India delivered its best-ever team performance at EGMO 2026.",
+      "question": "What was India's best-ever team rank at EGMO 2026?",
+      "options": [
+        "6th",
+        "4th",
+        "8th",
+        "10th"
+      ],
+      "correct_answer": "6th",
+      "explanation": "PIB reported that India secured 6th position out of 67 participating countries, its highest rank since debuting in 2015.",
+      "tags": [
+        "olympiad",
+        "ranking",
+        "mathematics"
+      ],
+      "source": {
+        "title": "Indian Team Achieves Historic Success at the 15th European Girls' Mathematical Olympiad 2026",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2252276",
+        "publisher": "PIB Mumbai",
+        "published_on": "2026-04-15"
+      }
+    },
+    {
+      "id": "q012-aigeg-ministry",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "digital-governance",
+      "difficulty": "easy",
+      "fact": "MeitY constituted the AI Governance and Economic Group in April 2026.",
+      "question": "Which ministry constituted the AI Governance and Economic Group (AIGEG)?",
+      "options": [
+        "Ministry of Electronics and Information Technology",
+        "Ministry of Education",
+        "NITI Aayog",
+        "Department of Telecommunications"
+      ],
+      "correct_answer": "Ministry of Electronics and Information Technology",
+      "explanation": "The official release says MeitY constituted AIGEG as the central institutional mechanism for AI governance policy development and coordination.",
+      "tags": [
+        "ai",
+        "governance",
+        "meity"
+      ],
+      "source": {
+        "title": "Government Constitutes AI Governance and Economic Group (AIGEG) to Lead India's National AI Governance Strategy",
+        "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2252739",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-16"
+      }
+    },
+    {
+      "id": "q013-tpec-support-body",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "digital-governance",
+      "difficulty": "medium",
+      "fact": "TPEC was created as a standing expert advisory body for India's AI governance architecture.",
+      "question": "The Technology and Policy Expert Committee (TPEC) was set up to provide expert support to which body?",
+      "options": [
+        "AI Governance and Economic Group (AIGEG)",
+        "National Cyber Coordination Centre",
+        "IndiaAI Mission Governing Council",
+        "Digital Personal Data Board of India"
+      ],
+      "correct_answer": "AI Governance and Economic Group (AIGEG)",
+      "explanation": "MeitY said TPEC will provide the technical, legal and policy advice needed to support the functioning of AIGEG.",
+      "tags": [
+        "ai",
+        "policy",
+        "committee"
+      ],
+      "source": {
+        "title": "Government Constitutes Technology and Policy Expert Committee (TPEC) to Provide Expert Advisory Support to India's AI Governance Architecture",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2253322&lang=1&reg=1",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-18"
+      }
+    },
+    {
+      "id": "q014-startup-fund-corpus",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "startup",
+      "difficulty": "easy",
+      "fact": "Startup India Fund of Funds 2.0 was notified in April 2026.",
+      "question": "What is the total corpus of Startup India Fund of Funds 2.0?",
+      "options": [
+        "Rs. 10,000 crore",
+        "Rs. 5,000 crore",
+        "Rs. 12,000 crore",
+        "Rs. 15,000 crore"
+      ],
+      "correct_answer": "Rs. 10,000 crore",
+      "explanation": "The Commerce Ministry said Startup India FoF 2.0 has a total corpus of Rs. 10,000 crore for commitments to eligible AIFs.",
+      "tags": [
+        "startup",
+        "fund-of-funds",
+        "commerce"
+      ],
+      "source": {
+        "title": "Government notifies Startup India Fund of Funds 2.0 with Rs. 10,000 crore corpus to mobilize capital for startups",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251638&lang=1&reg=3",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q015-esafeher-target",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "cyber-security",
+      "difficulty": "easy",
+      "fact": "e-SafeHER is a cyber security awareness programme for women in rural India.",
+      "question": "e-SafeHER aims to enable how many Cyber Sakhis across rural India over the next three years?",
+      "options": [
+        "1 million",
+        "100,000",
+        "5 million",
+        "250,000"
+      ],
+      "correct_answer": "1 million",
+      "explanation": "The MeitY release says e-SafeHER aims to enable one million Cyber Sakhis across rural India over three years.",
+      "tags": [
+        "cyber-security",
+        "women",
+        "digital-inclusion"
+      ],
+      "source": {
+        "title": "e-SafeHER - a Cyber Security Awareness Training Programme to enable one million Cyber Sakhis across rural India",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251715&lang=1&reg=3",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q016-esafeher-partner",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "cyber-security",
+      "difficulty": "medium",
+      "fact": "e-SafeHER is anchored under MeitY's ISEA programme through C-DAC Hyderabad.",
+      "question": "e-SafeHER will be jointly delivered by C-DAC Hyderabad and which organisation?",
+      "options": [
+        "Reliance Foundation",
+        "NASSCOM Foundation",
+        "Digital India Corporation",
+        "MyGov"
+      ],
+      "correct_answer": "Reliance Foundation",
+      "explanation": "The official note says the programme will be jointly delivered by C-DAC Hyderabad and Reliance Foundation.",
+      "tags": [
+        "cyber-security",
+        "partnership",
+        "rural-india"
+      ],
+      "source": {
+        "title": "e-SafeHER - a Cyber Security Awareness Training Programme to enable one million Cyber Sakhis across rural India",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251715&lang=1&reg=3",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q017-ncs-porter-gigin",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "employment",
+      "difficulty": "easy",
+      "fact": "The Labour Ministry signed MoUs with Porter and Gigin Technologies on 13 April 2026.",
+      "question": "The Labour Ministry signed MoUs with Porter and Gigin Technologies to strengthen employment linkages through which portal?",
+      "options": [
+        "National Career Service (NCS) Portal",
+        "e-Shram Portal",
+        "Skill India Digital Hub",
+        "UMANG"
+      ],
+      "correct_answer": "National Career Service (NCS) Portal",
+      "explanation": "The PIB release says the MoUs were signed to expand employment opportunities and strengthen digital job matching through the NCS portal.",
+      "tags": [
+        "employment",
+        "ncs",
+        "labour"
+      ],
+      "source": {
+        "title": "Ministry of Labour and Employment signs MoUs with Porter and Gigin Technologies to strengthen employment linkages through National Career Service Portal",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251588&lang=1&reg=3",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q018-uidai-mappls",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "digital-governance",
+      "difficulty": "easy",
+      "fact": "UIDAI partnered with MapmyIndia to help residents locate authorised Aadhaar Centres.",
+      "question": "UIDAI partnered with MapmyIndia to display authorised Aadhaar Centres on which app?",
+      "options": [
+        "Mappls App",
+        "DigiLocker",
+        "Aarogya Setu",
+        "Bhashini App"
+      ],
+      "correct_answer": "Mappls App",
+      "explanation": "UIDAI said the agreement with MapmyIndia will enable display of authorised Aadhaar Centres on the Mappls App.",
+      "tags": [
+        "uidai",
+        "aadhaar",
+        "mapmyindia"
+      ],
+      "source": {
+        "title": "UIDAI ties up with MapmyIndia to display authorised Aadhaar Centres in Mappls App",
+        "url": "https://uidai.gov.in/en/media-resources/media/press-releases/19720-uidai-ties-up-with-mapmyindia-to-display-authorised-aadhaar-centres-in-mappls-app.html",
+        "publisher": "UIDAI",
+        "published_on": "2026-04-06"
+      }
+    },
+    {
+      "id": "q019-cho-app-developer",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "health",
+      "difficulty": "easy",
+      "fact": "A dedicated mobile app was launched in April 2026 to support the clinical workflow of Community Health Officers.",
+      "question": "The Clinical Workflow App launched for Community Health Officers was developed by which institution?",
+      "options": [
+        "ICMR",
+        "AIIMS Delhi",
+        "National Health Authority",
+        "PGI Chandigarh"
+      ],
+      "correct_answer": "ICMR",
+      "explanation": "The Health Ministry release says ICMR developed the clinical decision-support mobile app for CHOs.",
+      "tags": [
+        "health",
+        "icmr",
+        "digital-health"
+      ],
+      "source": {
+        "title": "Ministry of Health and Family Welfare Launches Mobile Application to Strengthen Clinical Workflow of Community Health Officers",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251582&lang=1&reg=3",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q020-abpmjay-hackathon-finale",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "health",
+      "difficulty": "medium",
+      "fact": "AB PM-JAY Auto-Adjudication Hackathon 2026 was launched to build scalable digital claims solutions.",
+      "question": "The grand finale of the AB PM-JAY Auto-Adjudication Hackathon 2026 is scheduled to be held at:",
+      "options": [
+        "Indian Institute of Science, Bengaluru",
+        "IIT Delhi",
+        "AIIMS Bhopal",
+        "National Institute of Health and Family Welfare"
+      ],
+      "correct_answer": "Indian Institute of Science, Bengaluru",
+      "explanation": "The National Health Authority said the two-day offline finale will be held on 8-9 May 2026 at IISc Bengaluru.",
+      "tags": [
+        "ab-pm-jay",
+        "hackathon",
+        "digital-health"
+      ],
+      "source": {
+        "title": "National Health Authority Invites Innovators to Join AB PM-JAY Auto-Adjudication Hackathon 2026",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2251434",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-13"
+      }
+    },
+    {
+      "id": "q021-kitg-state",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "sports",
+      "difficulty": "easy",
+      "fact": "The inaugural Khelo India Tribal Games 2026 became India's first national multi-sport event dedicated exclusively to tribal athletes.",
+      "question": "The inaugural Khelo India Tribal Games 2026 were held in which state?",
+      "options": [
+        "Chhattisgarh",
+        "Odisha",
+        "Jharkhand",
+        "Madhya Pradesh"
+      ],
+      "correct_answer": "Chhattisgarh",
+      "explanation": "PIB said the inaugural Khelo India Tribal Games were held in Chhattisgarh across Raipur, Jagdalpur and Sarguja.",
+      "tags": [
+        "sports",
+        "tribal-games",
+        "khelo-india"
+      ],
+      "source": {
+        "title": "Khelo India Tribal Games - A New Chapter in Tribal Sports",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245880&lang=1&reg=1",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-03-27"
+      }
+    },
+    {
+      "id": "q022-kitg-demo-sport",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "sports",
+      "difficulty": "medium",
+      "fact": "Khelo India Tribal Games 2026 featured seven medal sports and two demonstration sports.",
+      "question": "Khelo India Tribal Games 2026 included mallakhamb as a demonstration sport. What was the other demonstration sport?",
+      "options": [
+        "Kabaddi",
+        "Kho-Kho",
+        "Cycling",
+        "Shooting"
+      ],
+      "correct_answer": "Kabaddi",
+      "explanation": "The PIB note on Khelo India Tribal Games lists mallakhamb and kabaddi as the two demonstration sports.",
+      "tags": [
+        "sports",
+        "tribal-games",
+        "demonstration-sport"
+      ],
+      "source": {
+        "title": "Khelo India Tribal Games - A New Chapter in Tribal Sports",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245880&lang=1&reg=1",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-03-27"
+      }
+    },
+    {
+      "id": "q023-india-korea-msme",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "international-relations",
+      "difficulty": "easy",
+      "fact": "India signed an MoU on 20 April 2026 to deepen MSME cooperation with an East Asian partner.",
+      "question": "India signed an MoU on 20 April 2026 to strengthen MSME cooperation with which country?",
+      "options": [
+        "Republic of Korea",
+        "Japan",
+        "Vietnam",
+        "Indonesia"
+      ],
+      "correct_answer": "Republic of Korea",
+      "explanation": "PIB reported that India's MSME Ministry signed an MoU with the Republic of Korea's Ministry of SMEs and Startups on 20 April 2026.",
+      "tags": [
+        "msme",
+        "korea",
+        "mou"
+      ],
+      "source": {
+        "title": "India and Republic of Korea Sign MoU to Strengthen Cooperation in MSME Sector",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254252&lang=1&reg=3",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-21"
+      }
+    },
+    {
+      "id": "q024-india-bhutan-jgc",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "international-relations",
+      "difficulty": "easy",
+      "fact": "India hosted the 7th Joint Group of Customs meeting in Munnar, Kerala, on 20-21 April 2026.",
+      "question": "The 7th Joint Group of Customs meeting held on 20-21 April 2026 was between India and:",
+      "options": [
+        "Bhutan",
+        "Nepal",
+        "Bangladesh",
+        "Myanmar"
+      ],
+      "correct_answer": "Bhutan",
+      "explanation": "The Finance Ministry release states that the 7th Joint Group of Customs meeting was held between India and Bhutan in Munnar, Kerala.",
+      "tags": [
+        "customs",
+        "bhutan",
+        "finance"
+      ],
+      "source": {
+        "title": "India and Bhutan hold 7th Joint Group of Customs meeting in Munnar, Kerala, on 20th-21st April 2026",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2254164",
+        "publisher": "PIB Delhi",
+        "published_on": "2026-04-21"
+      }
+    },
+    {
+      "id": "q025-census-hlo-phase",
+      "exam": "ssc",
+      "as_of_date": "2026-04-23",
+      "category": "governance",
+      "difficulty": "easy",
+      "fact": "The first phase of Census-2027 began on 1 April 2026.",
+      "question": "The first phase of Census-2027 that began on 1 April 2026 is called:",
+      "options": [
+        "House-listing and Housing Census (HLO)",
+        "Population Enumeration Phase",
+        "National Household Update",
+        "Socio-Economic Mapping Round"
+      ],
+      "correct_answer": "House-listing and Housing Census (HLO)",
+      "explanation": "The PIB Dehradun release said the first phase of Census-2027 is the House-listing and Housing Census, or HLO, and it began on 1 April 2026.",
+      "tags": [
+        "census",
+        "governance",
+        "statistics"
+      ],
+      "source": {
+        "title": "First phase of Census-2027 begins in Uttarakhand",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2250444",
+        "publisher": "PIB Dehradun",
+        "published_on": "2026-04-09"
+      }
+    }
+  ]
+}
